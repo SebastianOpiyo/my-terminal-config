@@ -1,0 +1,21 @@
+format = """
+🕒 $time in 📂 $directory on 🐦$custom.doka $git_branch $git_status
+$character """
+
+[time]
+disabled = false
+format = "$time"
+style = "yellow"
+time_format = "%H:%M:%S"
+
+[directory]
+style = "green"
+
+[custom.doka]
+command = "echo kafka"
+style = "green"
+when = "test -d kafka"
+
+[character]
+success_symbol = "🚀"
+error_symbol = "💥"
