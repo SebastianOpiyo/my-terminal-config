@@ -6,8 +6,10 @@ Get fonts from https://www.nerdfonts.com/
 To install and confure a nice looking poweshell version 7, follow the following steps:
 
 See Sample look below:
-![alt text](image.png)
+![powershell 7 look](image.png)
 
+Sample Look on VS Code
+![Vs code powershell look](image-1.png)
 
 ---
 
