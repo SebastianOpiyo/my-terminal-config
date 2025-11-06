@@ -12,9 +12,9 @@ time_format = "%H:%M:%S"
 style = "green"
 
 [custom.doka]
-command = "echo kafka"
+command = "echo doka"
 style = "green"
-when = "test -d kafka"
+when = "test -d doka"
 
 [character]
 success_symbol = "🚀"
