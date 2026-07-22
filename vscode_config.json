@@ -1,0 +1,46 @@
+{
+    "files.autoSave": "afterDelay",
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+    "sqldeveloper.telemetry.enabled": true,
+    // "workbench.colorTheme": "Night Owl Light",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "redhat.telemetry.enabled": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "remote.SSH.remotePlatform": {
+        "172.16.4.99": "linux"
+    },
+    "python.analysis.autoImportCompletions": true,
+    // "typescript.updateImportsOnFileMove.enabled": "always",
+    "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
+    "http.systemCertificatesNode": true,
+    "geminicodeassist.project": "majestic-sunspot-d2drg",
+    // "workbench.sideBar.location": "right",
+    "diffEditor.codeLens": true,
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.iconTheme": "material-icon-theme",
+    "go.toolsManagement.autoUpdate": true,
+    //Additional Customizations
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "default",
+    "workbench.editor.showTabs": "multiple",
+    "window.titleBarStyle": "custom",
+    "workbench.layoutControl.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Cascadia Code, Consolas, monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24
+}
